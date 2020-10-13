@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+-<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="Logo" src="https://www.euractiv.com/wp-content/uploads/sites/2/2019/05/Autumn_forest-800x450.jpg" alt="We are the Future Foundation" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">We Are the Future</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">We Are the Future</h5>
+    <h3 class="w3-hide-medium w3-hide-small">Foundation</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#AboutUs" class="w3-bar-item w3-button">About Us</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+ <div class="w3-center">
+  <h2>Reforestation Projects:<br><h2>
+ </div>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://lh3.googleusercontent.com/proxy/mYBP88cR4mYgERTtHf2ObOctCej-zMhWnY3AhxUEx4nFvGKMQhT4Jp82eI26WxaJMCLsTTcAJLHcqX70DWFqLVk177N5mCrPr5hbPK8ahwX8OFjodj4iHGJDitnG2mMwTmWuNDKxK_vRdV9Qi5Q93fFSfhX88iolJvAj7CwfA1I02Nq4xv1loOLIxV_xG5RKNMCD0H1IBw" alt="Amazon" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Amazon Forest in Brazil - 2020</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://www.africanbirdclub.org/sites/default/files/Benin_Lama_Forest.jpg" alt="Benin" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Forest in Benin - 2019</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://i0.wp.com/www.vanguardngr.com/wp-content/uploads/2019/04/forest-e1554814524401.jpg?resize=600%2C398&ssl=1" alt="Nigeria" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Reforestation in Nigeria</b></p>
+        </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://www.rainforest-alliance.org/sites/default/files/2017-03/honduras-forest-landscape.jpg" alt="Honduras" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Forest in Honduras</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://eco-business.imgix.net/ebmedia/fileuploads/25832549908_c8b7690518_b.jpg?fit=crop&h=960&ixlib=django-1.2.0&w=1440" alt="Indonesia" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Forest recovered in Indonesia</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://www.ncl.ac.uk/media/wwwnclacuk/pressoffice/images/news/april2019/Nepal-forest-standard-full-width.jpg" alt="Nepal" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Nepalese Forest</b></p>
+      </div>
+    </div>
+  </div>
+
+   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Us</b></h4>
+    <p>We are the Future is the result of an idea shared and believed by volunteers from around the world who came together in an effort of cooperation for the sake of building a better planet. Every year, more and more people join our efforts to reforest and protect the forests and wildlife. Our foundation is already active in more than 50 countries and leads major projects in areas degraded by human activity.</p>
+    <hr> </div>
+     
+  <!-- Contact Section -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p>Please contact us for more information about our foundation and future reforestation projects.</p>
+
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" required name="Message">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+    </form><br>
+  </div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
